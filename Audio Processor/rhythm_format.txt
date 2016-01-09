@@ -1,0 +1,14 @@
+<number of drums> <number of time slots>
+<a sequence of 0 (off) and 1 (on)> <Drum instrument index>
+<a sequence of 0 (off) and 1 (on)> <Drum instrument index>
+....
+<a sequence of 0 (off) and 1 (on)> <Drum instrument index>
+
+
+Remark: For each of the 0 and 1 sequence, the 0s and 1s are separated by spaces, where the
+number of 0s and 1s is equal to the number of time slots. Here is an example sequence:
+
+0 1 0 1 0 1 1 1 1 0 38
+
+The number of time slots here equals to 10 and drum instrument 38 (Acoustic  snare) is using;
+0 = off; 1 = on.
